@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UsuarioInteres"
+             x:Class="UsuarioInteres.MainPage">
+
+    <StackLayout BackgroundColor="Aqua">
+        <BoxView
+            BackgroundColor="Blue"
+            HeightRequest="130">
+        </BoxView>
+        <Button 
+            BackgroundColor="Green"
+            HorizontalOptions="Center"
+            BorderRadius="60"
+            WidthRequest="110"
+            HeightRequest="90"></Button>
+            
+
+        <Label Text="Nombre De Usuario"
+               TextColor="Violet"></Label>
+        
+        <Entry Placeholder="Ingrese Usuario"
+               TextColor="Aqua"
+               ></Entry>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Edad">
+            </Label>
+            <Entry Placeholder="Ingrese Edad"
+                   HorizontalOptions="Center"
+                   BackgroundColor="White"
+                   ></Entry>
+              
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Intereses">
+            </Label>
+            <Entry Placeholder="Ingrese Sus Intereses"
+                   HorizontalOptions="Center"
+                   BackgroundColor="White"></Entry>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Aprende">    
+            </Label>
+            <Entry Placeholder="Ingrese Xamarin Forms, ASP.Net"
+                   HorizontalOptions="Center"
+                   BackgroundColor="White"></Entry>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Otro">
+            </Label>
+            <Entry Placeholder="Ingrese Xamarin Forms, ASP.Net"
+                   HorizontalOptions="Center"
+                   BackgroundColor="White"></Entry>
+        </StackLayout>
+      
+    </StackLayout>
+
+</ContentPage>

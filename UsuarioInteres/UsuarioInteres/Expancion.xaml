@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsuarioInteres.Expancion">
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView BackgroundColor="Red"
+                    HeightRequest="1"
+                    ></BoxView>
+            <Label Text="Fill"
+                   VerticalOptions="FillAndExpand"
+                   BackgroundColor="Yellow"></Label>
+
+            <BoxView BackgroundColor="Blue"
+                    HeightRequest="1"
+                    ></BoxView>
+            <Label Text="Start"
+                   VerticalOptions="StartAndExpand"
+                   BackgroundColor="Yellow"></Label>
+
+            <BoxView BackgroundColor="Red"
+                    HeightRequest="1"
+                    ></BoxView>
+            <Label Text="Center"
+                   VerticalOptions="CenterAndExpand"
+                   BackgroundColor="Yellow"></Label>
+
+            <BoxView BackgroundColor="Red"
+                    HeightRequest="1"
+                    ></BoxView>
+            <Label Text="End"
+                   VerticalOptions="EndAndExpand"
+                   BackgroundColor="Yellow"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

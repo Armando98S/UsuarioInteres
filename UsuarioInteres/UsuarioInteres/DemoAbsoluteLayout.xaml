@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsuarioInteres.DemoAbsoluteLayout">
+    <ContentPage.Content>
+        <StackLayout>
+            <AbsoluteLayout>
+                <Button BackgroundColor="Yellow"
+                        Text="Enviar"
+                        AbsoluteLayout.LayoutBounds="30,30,100,80">
+                    
+                </Button>
+                <Button BackgroundColor="Blue"
+                        Text="Enviar"
+                        AbsoluteLayout.LayoutBounds="100,80,100,80">
+
+                </Button>
+                <Button BackgroundColor="Red"
+                        Text="Enviar"
+                        AbsoluteLayout.LayoutBounds="100,130,200,.3"
+                        AbsoluteLayout.LayoutFlags="HeightProportional">
+                        
+
+                </Button>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

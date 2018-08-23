@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UsuarioInteres.PrimerEjercicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Place new controls here -->
+            <TableView Intent="Form">
+                <TableSection 
+                Title="Datos Generales">
+                    <EntryCell Label="Total"
+                x:Name ="entTotal"></EntryCell>
+                    <EntryCell Label="Propina"
+                x:Name ="entPropina"></EntryCell>
+                    <EntryCell Label="NumPersonas"
+                x:Name="entNumPersonas"></EntryCell>
+                </TableSection>
+                <TableSection 
+                Title="Calcular">
+                    <ViewCell>
+                        <Button Text="Calcular"
+                            x:Name="btnCalcular"></Button>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="Resultado">
+                    <TextCell Text="Propinas"
+                x:Name ="txtPropina"></TextCell>
+                    <TextCell Text="Totales"
+                x:Name="txtTotal"></TextCell>
+                    <TextCell Text="PropinaPersonas"
+                x:Name="txtProPersonas"></TextCell>
+                    <TextCell Text="Totale"
+                          x:Name="txtTotalesPers"></TextCell>
+                </TableSection>
+            </TableView>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
